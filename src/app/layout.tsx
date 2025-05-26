@@ -1,8 +1,4 @@
-import { Playfair_Display, Playfair_Display_SC } from "next/font/google";
 import "@/app/ui/globals.css";
-
-export const playfair_display_sc = Playfair_Display_SC({subsets: ['latin'], weight:['400']});
-export const playfair_display = Playfair_Display({subsets: ['latin'], weight:['500']});
 
 // export const metadata: Metadata = {
 //   title: "Katie G Website",

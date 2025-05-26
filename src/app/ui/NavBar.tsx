@@ -1,5 +1,7 @@
 import LinkButton from "./LinkButton";
-import { playfair_display } from "../layout";
+import { Playfair_Display } from "next/font/google";
+
+const playfair_display = Playfair_Display({subsets: ['latin']});
 
 export default function NavBar () {
     return (
