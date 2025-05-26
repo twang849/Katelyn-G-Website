@@ -1,7 +1,7 @@
 import Section from "./Section";
 import { playfair_display } from "../layout";
 
-export default function () {
+export default function InfoBoxTwo () {
     return (
         <Section bgColor="bg-gray-900" height="h-[40rem]">
         <div className="flex flex-row items-center gap-[5rem]">

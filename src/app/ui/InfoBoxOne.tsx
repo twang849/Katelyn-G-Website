@@ -1,7 +1,7 @@
 import { playfair_display } from "../layout";
 import Section from "./Section";
 
-export default function () {
+export default function InfoBoxOne () {
     return (
         <Section customSettings="bg-[url('/cartographer.png')]" bgColor="bg-black" height="h-[50rem]">
             <div className="flex flex-row items-center gap-[5rem]">
