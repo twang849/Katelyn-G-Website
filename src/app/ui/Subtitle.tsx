@@ -1,4 +1,3 @@
-import { Playfair_Display } from "next/font/google";
 import { Merriweather } from "next/font/google";
 
 const merriweather = Merriweather({subsets: ['latin'], weight: ['400']});
