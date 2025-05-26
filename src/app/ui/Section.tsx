@@ -4,8 +4,8 @@ export default function Section ({
     bgColor="bg-white", 
     height="h-3/6" 
 }: {
-    customSettings?: any, 
-    children: any, 
+    customSettings?: string, 
+    children: React.ReactNode, 
     bgColor?: string, 
     height?: string
 }) {
