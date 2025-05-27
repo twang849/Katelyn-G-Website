@@ -1,13 +1,13 @@
 import Section from "./Section";
-import { Playfair_Display } from "next/font/google";
+import { Merriweather_Sans } from "next/font/google";
 
-const playfair_display = Playfair_Display({subsets: ['latin']});
+const font = Merriweather_Sans({subsets: ['latin'], weight:['400']});
 
 export default function InfoBoxTwo () {
     return (
-        <Section bgColor="bg-gray-900" height="h-[40rem]">
+        <Section bgColor="bg-purple-700" height="h-[40rem]">
         <div className="flex flex-row items-center gap-[5rem]">
-          <div className={`${playfair_display.className} whitespace-pre-line text-white text-2xl`}>
+          <div className={`${font.className} leading-relaxed whitespace-pre-line text-white text-2xl`}>
             {`Katie's musical style is influenced by artists such as Tate McRae,
             reflecting a modern pop sensibility infused with introspective 
             storytelling. Her performances, including a notable cover of 

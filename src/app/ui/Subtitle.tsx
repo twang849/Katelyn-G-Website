@@ -5,7 +5,7 @@ const merriweather = Merriweather({subsets: ['latin'], weight: ['400']});
 
 export default function Subtitle () {
     return (
-      <div className={`${[merriweather.className]} text-black text-2xl`}>
+      <div id="subtitle" className={`${[merriweather.className]} hover:text-gray-950 ease-out text-shadow-lg transition duration-500 text-white text-2xl`}>
         The 19-year-old singer-songwriter whose heartfelt lyrics and soulful melodies are capturing attention.
       </div>  
     );

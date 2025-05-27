@@ -1,7 +1,15 @@
-export default function LinkButton ({ link, text }: {link: string, text: string}) {
+import Image from "next/image";
+
+export default function LinkButton ({ link, src, alt }: {link: string, src: string, alt: string}) {
     return (
-        <a href={link} className="text-2xl hover:text-blue-500 transition duration-300">
-            {text}
+        <a href={link} target="_blank" rel="noopener noreferrer" className= "hover:opacity-50 ease-out transition duration-300">
+            <Image
+                src={src}
+                width={50}
+                height={50}
+                alt={alt}
+                className=""
+            />
         </a>
     );
 }
