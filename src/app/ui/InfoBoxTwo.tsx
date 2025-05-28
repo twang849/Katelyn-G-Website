@@ -5,7 +5,7 @@ const font = Merriweather_Sans({subsets: ['latin'], weight:['400']});
 
 export default function InfoBoxTwo () {
     return (
-        <Section bgColor="bg-purple-700" height="h-[40rem]">
+        <Section bgColor="bg-black" height="h-[40rem]">
         <div className="flex flex-row items-center gap-[5rem]">
           <div className={`${font.className} leading-relaxed whitespace-pre-line text-white text-2xl`}>
             {`Katie's musical style is influenced by artists such as Tate McRae,

@@ -5,7 +5,7 @@ import Divider from "./ui/Divider";
 
 export default function Home() {
   return (
-    <div className="overflow-x-hidden flex items-center flex-col h-[170rem]">
+    <div className="overflow-x-hidden flex items-center flex-col h-auto">
       <Hero/>
       <Divider/>
       <InfoBoxOne/>

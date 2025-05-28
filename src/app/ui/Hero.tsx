@@ -8,7 +8,7 @@ import Subtitle from "./Subtitle";
 
 export default function Hero () {
     return (
-        <Section customSettings="bg-radial from-pink-800 to-purple-950 relative h-screen" bgColor="bg-purple-900">
+        <Section customSettings="bg-radial from-pink-800 via-blue-800 to-purple-950 relative h-screen" bgColor="bg-purple-900">
             <div className="flex flex-col items-center pb-[6rem] gap-10">
                 <Buttons/>
                 <div className="grid grid-cols-[1fr_auto_1fr] mt-10 items-center pb-5">
